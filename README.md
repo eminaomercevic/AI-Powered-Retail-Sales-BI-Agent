@@ -103,10 +103,6 @@ retail-bi-agent-final/
 └── .gitignore
 ```
 
-## Should `load_retail_data.ipynb` be included?
-
-Yes. Include `etl/load_retail_data.ipynb` because it documents the ETL process: reading the CSV, cleaning invalid records, creating dimensions, loading facts, and verifying row counts. This supports the data ingestion and validation requirements.
-
 ## Setup Instructions
 
 ### 1. Install Python dependencies
