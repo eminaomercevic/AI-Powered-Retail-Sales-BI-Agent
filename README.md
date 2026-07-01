@@ -28,8 +28,6 @@ The raw dataset should be placed locally at:
 data/online_retail_II.csv
 ```
 
-The full CSV is not required in GitHub if file size or submission rules are a concern. The dataset source link is included for reproducibility.
-
 ## Data Warehouse Schema
 
 The cleaned data is loaded into a star schema in Supabase PostgreSQL:
@@ -85,7 +83,7 @@ retail-bi-agent-final/
 │   ├── system_prompt.txt
 │   ├── golden_queries.md
 │   ├── requirements.txt
-│   └── .env                  # local only, do not upload
+│   └── .env                  # local only
 │
 ├── etl/
 │   └── load_retail_data.ipynb
@@ -96,7 +94,7 @@ retail-bi-agent-final/
 │   └── agent_mcp_architecture.png
 │
 ├── data/
-│   └── online_retail_II.csv  # optional/local only
+│   └── online_retail_II.csv
 │
 ├── validation_checks.py
 ├── README.md
